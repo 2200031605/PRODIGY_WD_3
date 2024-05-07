@@ -1,0 +1,47 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin-bottom: 20px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.message {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: aqua;
+    color: pink;
+}
+
+.button:hover {
+    background-color: blue;
+}
